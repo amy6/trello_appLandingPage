@@ -1,17 +1,18 @@
 package com.example.android.applandingpage;
 
+import android.support.annotation.NonNull;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 
 /**
- * Created by mahima on 24/3/18.
+ * Define page slide transformation for the viewpager sliding
  */
 
 public class DepthPageTransformer implements ViewPager.PageTransformer {
 
     private static final float MIN_SCALE = 0.75f;
 
-    public void transformPage(View view, float position) {
+    public void transformPage(@NonNull View view, float position) {
         int pageWidth = view.getWidth();
 
         if (position < -1) { // [-Infinity,-1)

@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/padding_margin_medium"
             android:layout_marginTop="@dimen/padding_margin_medium"
-            android:contentDescription="@string/trello_logo"
+            android:contentDescription="@string/trello_img"
             android:src="@drawable/zapier" />
 
         <TextView
@@ -43,7 +43,7 @@
             android:layout_alignParentRight="true"
             android:layout_below="@id/fragmentFour_text"
             android:layout_marginBottom="@dimen/padding_margin_medium"
-            android:contentDescription="@string/trello_organize"
+            android:contentDescription="@string/trello_img"
             android:src="@drawable/taco_desktop" />
 
         <ImageView
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginTop="@dimen/padding_margin_medium"
-            android:contentDescription="@string/trello_paws"
+            android:contentDescription="@string/trello_img"
             android:onClick="tacoClick"
             android:src="@drawable/taco"
             android:visibility="visible" />

@@ -17,7 +17,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginTop="@dimen/padding_margin_medium"
-            android:contentDescription="@string/trello_ideas"
+            android:contentDescription="@string/trello_img"
             android:src="@drawable/trelloideas" />
 
         <ImageView
@@ -26,7 +26,7 @@
             android:layout_height="@dimen/img_rect_heigth_small"
             android:layout_below="@id/trello_ideas_img"
             android:layout_marginBottom="@dimen/padding_margin_medium"
-            android:contentDescription="@string/trello_boards"
+            android:contentDescription="@string/trello_img"
             android:src="@drawable/desk" />
 
         <ImageView
@@ -37,7 +37,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginBottom="@dimen/padding_margin_medium"
-            android:contentDescription="@string/trello_ideas"
+            android:contentDescription="@string/trello_img"
             android:src="@drawable/boards" />
 
         <TextView

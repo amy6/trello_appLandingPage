@@ -15,7 +15,7 @@
             android:layout_width="@dimen/img_square_side"
             android:layout_height="@dimen/img_square_side"
             android:layout_marginTop="@dimen/padding_margin_medium"
-            android:contentDescription="@string/trello_logo"
+            android:contentDescription="@string/trello_img"
             android:src="@drawable/trello_logo" />
 
         <ImageView
@@ -25,7 +25,7 @@
             android:layout_marginTop="@dimen/padding_margin_medium"
             android:layout_toEndOf="@id/trello_logo_img"
             android:layout_toRightOf="@id/trello_logo_img"
-            android:contentDescription="@string/trello_banner"
+            android:contentDescription="@string/trello_img"
             android:src="@drawable/trello_title" />
 
         <ImageView
@@ -35,7 +35,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginTop="@dimen/padding_margin_xlarge"
-            android:contentDescription="@string/trello_paws"
+            android:contentDescription="@string/trello_img"
             android:src="@drawable/trellopaws" />
 
         <ImageView
@@ -44,7 +44,7 @@
             android:layout_height="@dimen/img_rect_height"
             android:layout_centerInParent="true"
             android:layout_marginBottom="@dimen/padding_margin_medium"
-            android:contentDescription="@string/trello_organize"
+            android:contentDescription="@string/trello_img"
             android:src="@drawable/organizewithtrello_transparent" />
 
         <TextView

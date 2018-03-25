@@ -24,19 +24,28 @@ public class MainActivity extends AppCompatActivity {
         ViewPager viewPager = findViewById(R.id.photos_viewpager);
         TabLayout tabLayout = findViewById(R.id.tabLayout);
 
-        ImageSliderAdapter adapter = new ImageSliderAdapter(this, tabLayout);
+        ImageSliderAdapter adapter = new ImageSliderAdapter(this);
         viewPager.setAdapter(adapter);
         viewPager.setPageTransformer(true, new DepthPageTransformer());
         tabLayout.setupWithViewPager(viewPager);
 
     }
 
+    /**
+     * Uses YoYo animation library to animate Image
+     * @param view Taco image reference
+     */
     public void tacoClick(View view) {
         YoYo.with(Techniques.StandUp)
                 .duration(2000)
                 .playOn(view);
     }
 
+
+    /**
+     * Called when the app store buttons are clicked to open respective app download pages
+     * @param view button clicked
+     */
     public void getTheApp(View view) {
         int id = view.getId();
         Intent intent = new Intent(Intent.ACTION_VIEW);

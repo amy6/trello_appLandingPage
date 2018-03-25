@@ -22,7 +22,7 @@
             android:layout_marginEnd="@dimen/padding_margin_medium"
             android:layout_marginRight="@dimen/padding_margin_medium"
             android:layout_marginTop="@dimen/padding_margin_medium"
-            android:contentDescription="@string/trello_logo"
+            android:contentDescription="@string/trello_img"
             android:src="@drawable/trello_title" />
 
         <TextView
@@ -56,20 +56,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:contentDescription="@string/trello_organize"
+                android:contentDescription="@string/trello_img"
                 android:onClick="getTheApp"
                 android:src="@drawable/ic_play_store"
-                android:background="?android:selectableItemBackground"/>
+                android:background="@drawable/button_selector"/>
 
             <ImageView
                 android:id="@+id/appstore"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:contentDescription="@string/trello_organize"
+                android:contentDescription="@string/trello_img"
                 android:onClick="getTheApp"
                 android:src="@drawable/ic_apple_store"
-                android:background="?android:selectableItemBackground"/>
+                android:background="@drawable/button_selector"/>
 
         </LinearLayout>
 
@@ -81,7 +81,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:background="@drawable/taco_usecases"
-            android:contentDescription="@string/trello_ideas" />
+            android:contentDescription="@string/trello_img" />
 
     </RelativeLayout>
 
