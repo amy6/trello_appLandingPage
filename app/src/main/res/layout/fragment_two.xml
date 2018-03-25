@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background2"
+        android:padding="@dimen/padding_margin_medium">
+
+        <ImageView
+            android:id="@+id/trello_ideas_img"
+            android:layout_width="@dimen/img_width_small"
+            android:layout_height="@dimen/img_height_min"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/padding_margin_medium"
+            android:contentDescription="@string/trello_ideas"
+            android:src="@drawable/trelloideas" />
+
+        <ImageView
+            android:id="@+id/trello_desktop_img"
+            android:layout_width="@dimen/img_rect_width"
+            android:layout_height="@dimen/img_rect_heigth_small"
+            android:layout_below="@id/trello_ideas_img"
+            android:layout_marginBottom="@dimen/padding_margin_medium"
+            android:contentDescription="@string/trello_boards"
+            android:src="@drawable/desk" />
+
+        <ImageView
+            android:id="@+id/trello_zapier_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/padding_margin_medium"
+            android:contentDescription="@string/trello_ideas"
+            android:src="@drawable/boards" />
+
+        <TextView
+            android:id="@+id/fragmentTwo_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/trello_zapier_img"
+            android:layout_below="@id/trello_desktop_img"
+            android:layout_marginBottom="@dimen/padding_margin_medium"
+            android:layout_marginLeft="@dimen/padding_margin_medium"
+            android:layout_marginRight="@dimen/padding_margin_medium"
+            android:fontFamily="serif"
+            android:gravity="bottom"
+            android:text="@string/fragmentTwo_text"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</ScrollView>
