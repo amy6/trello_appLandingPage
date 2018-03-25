@@ -1,16 +1,11 @@
 <resources>
     <string name="app_name">Trello</string>
-    <string name="trello_logo">Trello logo</string>
-    <string name="trello_ideas">Trello Ideas</string>
-    <string name="trello_organize">Trello Organize Board Pic</string>
     <string name="fragmentOne_text">Trello is the free, flexible and visual way to organize anything with anyone</string>
-    <string name="trello_banner">Trello Banner</string>
-    <string name="trello_paws">Trello Paws</string>
     <string name="fragmentTwo_text">Use boards to organize information and tasks, and see what\'s getting done</string>
-    <string name="trello_boards">Trello Boards Pic</string>
     <string name="fragmentThree_text">Oh And hey! This is Taco, our spokes Husky. You\'ll see him around</string>
-    <string name="fragmentThree_text_zapier">You can automate your workflow, connect Trello to any other app and create powerful integrations.</string>
+    <string name="fragmentThree_text_zapier">You can automate your workflow, connect Trello to many other apps and create powerful integrations.</string>
     <string name="fragmentFour_text">So, what are you waiting for? Let\'s get started!\n\nDownload Trello Today!</string>
     <string name="playstore_ID">com.trello</string>
     <string name="applestore_ID">1278508951</string>
+    <string name="trello_img">Trello Pic</string>
 </resources>
