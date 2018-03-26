@@ -23,4 +23,14 @@
         app:tabGravity="center"
         app:tabIndicatorHeight="0dp" />
 
+    <LinearLayout
+        android:id="@+id/dotsIndicatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible">
+    </LinearLayout>
+
 </RelativeLayout>
