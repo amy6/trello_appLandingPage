@@ -53,7 +53,6 @@
             android:layout_alignParentBottom="true"
             android:layout_marginTop="@dimen/padding_margin_medium"
             android:contentDescription="@string/trello_img"
-            android:onClick="tacoClick"
             android:src="@drawable/taco"
             android:visibility="visible" />
 

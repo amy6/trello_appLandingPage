@@ -57,7 +57,6 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:contentDescription="@string/trello_img"
-                android:onClick="getTheApp"
                 android:src="@drawable/ic_play_store"
                 android:background="@drawable/button_selector"/>
 
@@ -67,7 +66,6 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:contentDescription="@string/trello_img"
-                android:onClick="getTheApp"
                 android:src="@drawable/ic_apple_store"
                 android:background="@drawable/button_selector"/>
 
